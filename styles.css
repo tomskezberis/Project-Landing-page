@@ -1,3 +1,35 @@
 * {
     font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+
+
+/* html {
+    background-color: #1f2937;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 96px 48px;
+    background-color:#1F2937;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+img {
+    width: 60px;
+    
+
+}
+
+.header-links {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 24px;
 }
