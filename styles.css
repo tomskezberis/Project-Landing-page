@@ -13,7 +13,7 @@
     align-items: center;
     height: 72px;
     padding: 0 300px;
-    background-color:#1F2937;
+    background-color: #2d3745;
     font-size: 24px;
     color: #f9faf8;
 }
@@ -38,12 +38,14 @@
 
 .action-btn{
     background-color: #3882f6;
-    color: #e5e7eb;
+    color: #f9faf8;
+    border: 2px solid #3882f6;
     font-weight: 600;
     border-radius: 8px;
     padding: 10px 10px;
     width: 100px;
     text-align: center;
+    cursor:pointer; 
 }
 
 .hero-img {
@@ -71,3 +73,125 @@ div.left-h {
     justify-content: space-between;
     flex-direction: column;
 } 
+
+/* MID SECTION */
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+div.mid-section {
+    padding: 50px 300px 100px;
+}
+div.images-text {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 0 50px;
+}
+div.card {
+    display: flex;
+    flex: 1 1 0;
+    text-align: center;
+}
+
+
+div.frame {
+    width: 160px;
+    height: 160px;
+    border: solid #3882f6 5px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+p.description {
+    display: flex;
+    justify-content: center;
+    color:#6D747D;
+    font-size: 14px;
+}
+
+.imgtxt {
+    height: 160px;
+    width: 160px;
+    border-radius: 14px;
+}
+
+/* QUOTE SECTION */
+div.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 300;
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 0 50px;
+}
+cite {
+    font-weight: 900;
+    font-size: 20px;
+    color: #1F2937;
+    align-self: flex-end;
+    padding-right: 110px;
+}
+
+/* BOTTOM SIGN-UP SECTION */
+.bottom-section {
+    padding: 100px 300px;
+}
+
+.bottom-box {
+    background-color:#3882f6 ;
+    display: flex;
+    padding: 50px 150px;
+    justify-content: space-between;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.bottom-section span {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.bottom-section p {
+    color: #e5e7eb;
+    margin: 5px 0 0;
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.signup-btn {
+    background-color: #3882f6;
+    border: #f9faf8 2px solid;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 10px 10px;
+    width: 100px;
+    text-align: center;
+}
+
+/* FOOTER SECTION */
+.footer {
+    background-color:#1F2937;
+    height: 90px;
+    color:#f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
